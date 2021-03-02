@@ -1,0 +1,77 @@
+body {
+  min-width: 320px;
+  min-height: 1200px;
+  font-family: 'HelveticaNeueCyr', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #31283C;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: white;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+ul[class],
+ol[class] {
+  padding: 0;
+}
+html,
+.app-wrapper {
+ min-height: 100%;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+h1,h3{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  background-color: transparent;
+}
+ul{
+  list-style: none;
+}
+table{
+  border-collapse: collapse;
+  border-spacing: unset;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+button{
+  transition: all 0.3s ease 0s;
+}
